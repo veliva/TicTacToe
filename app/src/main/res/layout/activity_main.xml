@@ -7,6 +7,14 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:titleTextColor="@android:color/white" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -18,26 +26,6 @@
             android:text="Player1 0:0 Player2"
             android:textSize="30sp"
             android:freezesText="true"/>
-
-        <Button
-            android:id="@+id/button_menu"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Menu"
-            android:textSize="20dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="58dp"/>
-
-        <ImageButton
-            android:id="@+id/button_reset"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="7dp"
-            android:background="@drawable/reset_button" />
-
-
 
     </RelativeLayout>
 

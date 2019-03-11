@@ -4,27 +4,38 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity">
+    tools:context=".MenuActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
 
-    <RelativeLayout
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_weight=".4">
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom|center_horizontal"
             android:text="TicTacToe Game"
+            android:textColor="@color/colorPrimary"
             android:textSize="40dp"
-            android:gravity="center_horizontal"
-            android:paddingTop="200dp" />
+            android:textStyle="bold"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".6">
 
         <Button
             android:id="@+id/button_play"
             android:layout_width="wrap_content"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:text="Play"
             android:textSize="25dp"
-            android:layout_centerInParent="true"/>
-    </RelativeLayout>
+            android:layout_gravity="top|center_horizontal" />
+    </FrameLayout>
 
 </LinearLayout>
