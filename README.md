@@ -16,4 +16,4 @@ Juhendi järgi sai tehtud ainult funktsionaalsuse ja reset nupu. Juurde lisasin 
 Disaini poole pealt muutsin rakenduse Primary ja PrimaryDark värve, tegin mängus kasutatavatele nuppudele eraldi XML failis kujunduse. Menu ehk mängu activitys paigutasin mängijate nimed ja skoorid kindlatele asukohtadele, mis jäävad samaks ka erinevate ekraanisuuruste korral. Mängija nimi on rohelist värvi, kui on parajasti tema kord käia. Mängijate nimed on vastavalt Noughts ehk ringid ja Crosses ehk ristid.
 
 ## Demo
-Rakenduse demo on vaadatav [Youtubes](https://www.youtube.com/).
+Rakenduse demo on vaadatav [Streamable keskkonnas](https://streamable.com/1ua91).
